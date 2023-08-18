@@ -1,0 +1,113 @@
+.body-background{
+    width: 226px;
+    height: 600px;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    position: absolute;
+    top: 1px;
+    right: 0%;
+}
+.page-wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 300px;
+    z-index: 9;
+    overflow: hidden;
+    background: #fff;
+    height: 610px;
+}
+.head-page h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.head-page h2 span{
+    color: #cd7675;
+}
+
+.head-page .logo img{
+    width: 200px;
+    height: 130px;
+}
+.banner-slider .banner-text {
+    margin-left: 0px;
+    position: relative;
+    bottom: 50%;
+    width: 100%;
+    z-index: 3;
+    height: 268px;
+    display: block;
+}
+.banner-slider .banner-text img.frontowl {
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+.banner-slider {
+    position: relative;
+    height: 550px;
+    width: 100%;
+    padding: 60px 0 0;
+    margin-top: 90px;
+
+}
+.phone-text{
+    text-align: right;
+}
+.phone-text p{
+    font-size: 22px;
+    font-weight: 600;
+}
+.phone-text p i{
+    background: #cd7675;
+    color: #fff;
+    padding-right: 10px;
+    border: 1px solid #cd7675;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 11px;
+    vertical-align: middle;
+    line-height: 2px;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-right: 6px;
+}
+.web-text a{
+    color: #464646;
+    font-weight: 600;
+    font-size: 22px;
+}
+.web-text p i{
+    color: #cd7675;
+}
+.Social-text ul{
+    display: flex;
+    margin-top: 0px;
+    margin-right: 0px;
+    justify-content: flex-end;
+}
+.Social-text ul li a {
+    font-size: 18px;
+    font-size: 17px;
+    margin-right: 5px;
+
+}
+.Social-text ul li a span{
+    font-size: 15px;
+    padding: 6px;
+    color: #fff;
+    border: 1px solid #cd7675;
+    background: #cd7675;
+    border-radius: 50%;
+}
+.Social-text ul li p{
+    font-weight: 600;
+    font-size: 21px;
+    vertical-align: middle;
+    line-height: 29px;
+}
